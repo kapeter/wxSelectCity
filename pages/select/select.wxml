@@ -1,0 +1,3 @@
+<view>
+  <select-city bind:handleSelect="handleSelect" open-status="{{ true }}"></select-city>
+</view>

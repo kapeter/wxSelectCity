@@ -1,0 +1,12 @@
+/**index.wxss**/
+.box{
+  width: 100%;
+  box-sizing: border-box;
+  padding: 60rpx 30rpx;
+}
+.box .text{
+  margin-bottom: 30rpx;
+}
+.box .btn{
+  margin-bottom: 30rpx;
+}

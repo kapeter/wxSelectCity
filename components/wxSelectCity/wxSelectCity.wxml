@@ -1,0 +1,23 @@
+<view class="select-city-wrapper {{ isActive ? 'active' : '' }}">
+  <view class="select-city-list {{ isProvinceSelected ? 'selected' : '' }}">
+    <!-- 省份列表 -->
+    <scroll-view class="select-city-box"  scroll-y>
+      <block wx:for="{{provinceList}}" wx:key="{{item.id}}">
+        <view class="select-city-option" bindtap="selectProvince" data-id="{{item.id}}">
+          {{item.fullname}}
+        </view>
+      </block>
+    </scroll-view>
+    <!-- 当前省份的城市列表 -->
+    <scroll-view class="select-city-box" scroll-y>
+      <view class="select-city-option" bindtap="backToProvince">
+        返回省份列表
+      </view>
+      <block wx:for="{{cityList}}" wx:key="{{item.id}}">
+        <view class="select-city-option" bindtap="selectCity" data-index="{{index}}">
+          {{item.fullname}}
+        </view>
+      </block>
+    </scroll-view>
+  </view>
+</view>

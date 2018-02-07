@@ -1,0 +1,7 @@
+<!--index.wxml-->
+<scroll-view class="container">
+  <map id="listMap" class="home-map" show-location="true" latitude="{{mapInfo.latitude}}" longitude="{{mapInfo.longitude}}" controls="{{controls}}" bindcontroltap="controlTap"></map>
+  <view class="list-content">
+    <text>当前城市: {{ currentCity }}</text>
+  </view>
+</scroll-view>

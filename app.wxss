@@ -1,0 +1,32 @@
+/**app.wxss**/
+text {
+  	font-family:"Helvetica Neue",Helvetica,Arial,"Microsoft Yahei","Hiragino Sans GB","Heiti SC", sans-serif;
+    color: #333;
+}
+.container {
+  width: 100%;
+  box-sizing: border-box;
+} 
+button{
+  outline:0;
+}
+ul,li,ol {
+  	list-style: none;
+}
+a {
+  	color: #666;
+  	text-decoration: none;
+  	transition: all .25s ease-out;
+}
+a:hover {
+  	color: #39c5bb;
+}
+p{
+  	margin-bottom: 10px;
+}
+.clearfix:after{
+	content: '';
+	display: block;
+	clear: both;
+	height: 0;
+}

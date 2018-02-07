@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "选择城市",
+  "usingComponents": {
+    "select-city": "../../components/wxSelectCity/wxSelectCity"
+  }
+}

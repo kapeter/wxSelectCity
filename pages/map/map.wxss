@@ -1,0 +1,15 @@
+/**index.wxss**/
+.home-map{
+  width: 100%;
+  height: 720rpx;
+  padding: 0;
+}
+.list-content{
+  width: 100%;
+  min-height: 320rpx;
+  box-sizing: border-box;
+  line-height: 2;
+  background-color: #fff;
+  padding: 30rpx;
+}
+

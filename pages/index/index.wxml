@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class="box">
+    <view class="text">当前城市为：{{ currentCity }}</view>
+    <button class="btn" bindtap="handleClick">选择城市</button>
+    <navigator url="/pages/map/map" hover-class="navigator-hover">
+      <button class="btn">在地图组件中使用组件</button>
+    </navigator>
+  </view>
+  <select-city bind:handleSelect="handleSelect" open-status="{{ isActive }}"></select-city>
+</view>
