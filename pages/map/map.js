@@ -14,6 +14,7 @@ Page({
     this.mapCtx = wx.createMapContext('listMap');
 
     this.setMapControls();
+    
     if (params){
       let paraObj = JSON.parse(params);
       let centerPoint = {

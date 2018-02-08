@@ -39,3 +39,6 @@
   background: #1AAD16;
   color: #fff;
 }
+.back-option:before{
+  content: "<";
+}

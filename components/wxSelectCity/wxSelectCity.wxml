@@ -10,7 +10,7 @@
     </scroll-view>
     <!-- 当前省份的城市列表 -->
     <scroll-view class="select-city-box" scroll-y>
-      <view class="select-city-option" bindtap="backToProvince">
+      <view class="select-city-option back-option" bindtap="backToProvince">
         返回省份列表
       </view>
       <block wx:for="{{cityList}}" wx:key="{{item.id}}">
