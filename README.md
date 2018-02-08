@@ -4,7 +4,7 @@
 
 > 小程序基础库版本 > 1.6.3
 
-![基础使用效果图](https://api.kapeter.com/storage/tDPNs5U0VM8VXlITfY2MFFhi1U2HjSxsAv30IC02.jpeg)
+![基础使用效果图](https://github.com/kapeter/wxSelectCity/blob/master/assets/img/map1.jpg)
 
 第一步，将components目录下的wxSelectCity文件夹拷贝到自己的项目中。
 
@@ -55,7 +55,7 @@ event.detail的基本结构:
 
 ## 2.在Map组件中使用
 
-![在Map组件中使用](https://api.kapeter.com/storage/PR99QmwaZwE4nZHHnbC85KLfueT4OkH4XXlo8Myp.jpeg)
+![在Map组件中使用](https://github.com/kapeter/wxSelectCity/blob/master/assets/img/map2.jpg)
 
 > map 组件是由客户端创建的原生组件，它的层级是最高的，不能通过 z-index 控制层级。
 
